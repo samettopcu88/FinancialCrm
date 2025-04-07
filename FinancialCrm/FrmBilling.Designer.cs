@@ -296,6 +296,7 @@
             this.btnCreateBill.TabIndex = 9;
             this.btnCreateBill.Text = "Yeni Ödeme";
             this.btnCreateBill.UseVisualStyleBackColor = false;
+            this.btnCreateBill.Click += new System.EventHandler(this.btnCreateBill_Click);
             // 
             // btnRemoveBill
             // 
@@ -340,8 +341,11 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FrmBilling";
-            this.Text = "FrmBilling";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Fatura Formu";
+            this.Load += new System.EventHandler(this.FrmBilling_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
