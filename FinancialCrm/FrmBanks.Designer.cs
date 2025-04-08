@@ -205,7 +205,7 @@
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
             this.panel3.Controls.Add(this.lblZiraatBankBalance);
             this.panel3.Controls.Add(this.label2);
-            this.panel3.Location = new System.Drawing.Point(221, 47);
+            this.panel3.Location = new System.Drawing.Point(203, 47);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(262, 153);
             this.panel3.TabIndex = 2;
@@ -235,7 +235,7 @@
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(188)))), ((int)(((byte)(156)))));
             this.panel4.Controls.Add(this.lblVakifbankBalance);
             this.panel4.Controls.Add(this.label5);
-            this.panel4.Location = new System.Drawing.Point(501, 47);
+            this.panel4.Location = new System.Drawing.Point(483, 47);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(262, 153);
             this.panel4.TabIndex = 5;
@@ -265,7 +265,7 @@
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(89)))), ((int)(((byte)(182)))));
             this.panel5.Controls.Add(this.lblisBankasiBalance);
             this.panel5.Controls.Add(this.label7);
-            this.panel5.Location = new System.Drawing.Point(782, 47);
+            this.panel5.Location = new System.Drawing.Point(764, 47);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(262, 153);
             this.panel5.TabIndex = 5;
@@ -303,7 +303,7 @@
             this.groupBox1.Controls.Add(this.lblBankProcess2);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.lblBankProcess1);
-            this.groupBox1.Location = new System.Drawing.Point(221, 220);
+            this.groupBox1.Location = new System.Drawing.Point(203, 220);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(823, 341);
             this.groupBox1.TabIndex = 6;
